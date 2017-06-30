@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3892FD1F067F1F00DE4850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3892FC1F067F1F00DE4850 /* AppDelegate.swift */; };
+		CF3892FF1F067F1F00DE4850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3892FE1F067F1F00DE4850 /* ViewController.swift */; };
+		CF3893021F067F1F00DE4850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3893001F067F1F00DE4850 /* Main.storyboard */; };
+		CF3893041F067F1F00DE4850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3893031F067F1F00DE4850 /* Assets.xcassets */; };
+		CF3893071F067F1F00DE4850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3893051F067F1F00DE4850 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF3892F91F067F1F00DE4850 /* bbc-mobile-app-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bbc-mobile-app-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3892FC1F067F1F00DE4850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3892FE1F067F1F00DE4850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF3893011F067F1F00DE4850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3893031F067F1F00DE4850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3893061F067F1F00DE4850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3893081F067F1F00DE4850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3892F61F067F1F00DE4850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3892F01F067F1F00DE4850 = {
+			isa = PBXGroup;
+			children = (
+				CF3892FB1F067F1F00DE4850 /* bbc-mobile-app-challenge */,
+				CF3892FA1F067F1F00DE4850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3892FA1F067F1F00DE4850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3892F91F067F1F00DE4850 /* bbc-mobile-app-challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3892FB1F067F1F00DE4850 /* bbc-mobile-app-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				CF3892FC1F067F1F00DE4850 /* AppDelegate.swift */,
+				CF3892FE1F067F1F00DE4850 /* ViewController.swift */,
+				CF3893001F067F1F00DE4850 /* Main.storyboard */,
+				CF3893031F067F1F00DE4850 /* Assets.xcassets */,
+				CF3893051F067F1F00DE4850 /* LaunchScreen.storyboard */,
+				CF3893081F067F1F00DE4850 /* Info.plist */,
+			);
+			path = "bbc-mobile-app-challenge";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3892F81F067F1F00DE4850 /* bbc-mobile-app-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF38930B1F067F1F00DE4850 /* Build configuration list for PBXNativeTarget "bbc-mobile-app-challenge" */;
+			buildPhases = (
+				CF3892F51F067F1F00DE4850 /* Sources */,
+				CF3892F61F067F1F00DE4850 /* Frameworks */,
+				CF3892F71F067F1F00DE4850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bbc-mobile-app-challenge";
+			productName = "bbc-mobile-app-challenge";
+			productReference = CF3892F91F067F1F00DE4850 /* bbc-mobile-app-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3892F11F067F1F00DE4850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hashaam Siddiq";
+				TargetAttributes = {
+					CF3892F81F067F1F00DE4850 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DGZ94FWHH5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF3892F41F067F1F00DE4850 /* Build configuration list for PBXProject "bbc-mobile-app-challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3892F01F067F1F00DE4850;
+			productRefGroup = CF3892FA1F067F1F00DE4850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3892F81F067F1F00DE4850 /* bbc-mobile-app-challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3892F71F067F1F00DE4850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3893071F067F1F00DE4850 /* LaunchScreen.storyboard in Resources */,
+				CF3893041F067F1F00DE4850 /* Assets.xcassets in Resources */,
+				CF3893021F067F1F00DE4850 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3892F51F067F1F00DE4850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3892FF1F067F1F00DE4850 /* ViewController.swift in Sources */,
+				CF3892FD1F067F1F00DE4850 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF3893001F067F1F00DE4850 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3893011F067F1F00DE4850 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3893051F067F1F00DE4850 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3893061F067F1F00DE4850 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3893091F067F1F00DE4850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF38930A1F067F1F00DE4850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF38930C1F067F1F00DE4850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGZ94FWHH5;
+				INFOPLIST_FILE = "bbc-mobile-app-challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hashaam.bbc-mobile-app-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF38930D1F067F1F00DE4850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGZ94FWHH5;
+				INFOPLIST_FILE = "bbc-mobile-app-challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hashaam.bbc-mobile-app-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3892F41F067F1F00DE4850 /* Build configuration list for PBXProject "bbc-mobile-app-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3893091F067F1F00DE4850 /* Debug */,
+				CF38930A1F067F1F00DE4850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF38930B1F067F1F00DE4850 /* Build configuration list for PBXNativeTarget "bbc-mobile-app-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF38930C1F067F1F00DE4850 /* Debug */,
+				CF38930D1F067F1F00DE4850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3892F11F067F1F00DE4850 /* Project object */;
+}
