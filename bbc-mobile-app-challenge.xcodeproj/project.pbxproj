@@ -7,25 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D6FC0FA276F8B2EF7D66B15 /* Pods_bbc_mobile_app_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD30354FBB0E5B9BDD0F7E9 /* Pods_bbc_mobile_app_challenge.framework */; };
 		CF3892FD1F067F1F00DE4850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3892FC1F067F1F00DE4850 /* AppDelegate.swift */; };
-		CF3892FF1F067F1F00DE4850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3892FE1F067F1F00DE4850 /* ViewController.swift */; };
 		CF3893021F067F1F00DE4850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3893001F067F1F00DE4850 /* Main.storyboard */; };
 		CF3893041F067F1F00DE4850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3893031F067F1F00DE4850 /* Assets.xcassets */; };
 		CF3893071F067F1F00DE4850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3893051F067F1F00DE4850 /* LaunchScreen.storyboard */; };
+		CF3893121F06804500DE4850 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893111F06804500DE4850 /* MainViewController.swift */; };
+		CF3893141F06805200DE4850 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893131F06805200DE4850 /* DetailViewController.swift */; };
+		CF3893171F06812300DE4850 /* model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF3893151F06812300DE4850 /* model.xcdatamodeld */; };
+		CF38931B1F0682CF00DE4850 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38931A1F0682CF00DE4850 /* CoreDataStack.swift */; };
+		CF38931E1F0683B000DE4850 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38931D1F0683B000DE4850 /* MainViewModel.swift */; };
+		CF3893201F0683BA00DE4850 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38931F1F0683BA00DE4850 /* DetailViewModel.swift */; };
+		CF3893221F06846500DE4850 /* FruitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893211F06846500DE4850 /* FruitExtension.swift */; };
+		CF3893241F0684DC00DE4850 /* StructModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893231F0684DC00DE4850 /* StructModels.swift */; };
+		CF3893271F0686DD00DE4850 /* GetFruitNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893261F0686DD00DE4850 /* GetFruitNetworkService.swift */; };
+		CF3893291F06881000DE4850 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893281F06881000DE4850 /* AppConfig.swift */; };
+		CF38932B1F06929A00DE4850 /* ViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38932A1F06929A00DE4850 /* ViewModelDelegate.swift */; };
+		CF38932F1F078FD500DE4850 /* DateFormatterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38932E1F078FD500DE4850 /* DateFormatterManager.swift */; };
+		CF3893311F07939A00DE4850 /* SendStatsNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893301F07939A00DE4850 /* SendStatsNetworkService.swift */; };
+		CF3893331F07AA0800DE4850 /* README in Resources */ = {isa = PBXBuildFile; fileRef = CF3893321F07AA0800DE4850 /* README */; };
+		CF3893431F07B6CA00DE4850 /* FruitStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893421F07B6CA00DE4850 /* FruitStructTests.swift */; };
+		CF3893451F07B80D00DE4850 /* FruitModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893441F07B80D00DE4850 /* FruitModelTests.swift */; };
+		CF3893491F07BA3200DE4850 /* GetFruitNetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3893481F07BA3200DE4850 /* GetFruitNetworkServiceTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CF38933D1F07AA7200DE4850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3892F11F067F1F00DE4850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3892F81F067F1F00DE4850;
+			remoteInfo = "bbc-mobile-app-challenge";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3394B9BB8C61577FD543EFF4 /* Pods-bbc-mobile-app-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bbc-mobile-app-challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bbc-mobile-app-challenge/Pods-bbc-mobile-app-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		AAD30354FBB0E5B9BDD0F7E9 /* Pods_bbc_mobile_app_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bbc_mobile_app_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3892F91F067F1F00DE4850 /* bbc-mobile-app-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bbc-mobile-app-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3892FC1F067F1F00DE4850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF3892FE1F067F1F00DE4850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF3893011F067F1F00DE4850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF3893031F067F1F00DE4850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF3893061F067F1F00DE4850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF3893081F067F1F00DE4850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3893111F06804500DE4850 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CF3893131F06805200DE4850 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CF3893161F06812300DE4850 /* model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = model.xcdatamodel; sourceTree = "<group>"; };
+		CF38931A1F0682CF00DE4850 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CF38931D1F0683B000DE4850 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CF38931F1F0683BA00DE4850 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		CF3893211F06846500DE4850 /* FruitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitExtension.swift; sourceTree = "<group>"; };
+		CF3893231F0684DC00DE4850 /* StructModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructModels.swift; sourceTree = "<group>"; };
+		CF3893261F0686DD00DE4850 /* GetFruitNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFruitNetworkService.swift; sourceTree = "<group>"; };
+		CF3893281F06881000DE4850 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		CF38932A1F06929A00DE4850 /* ViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelDelegate.swift; sourceTree = "<group>"; };
+		CF38932E1F078FD500DE4850 /* DateFormatterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterManager.swift; sourceTree = "<group>"; };
+		CF3893301F07939A00DE4850 /* SendStatsNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendStatsNetworkService.swift; sourceTree = "<group>"; };
+		CF3893321F07AA0800DE4850 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		CF3893381F07AA7200DE4850 /* bbc-mobile-app-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bbc-mobile-app-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF38933C1F07AA7200DE4850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3893421F07B6CA00DE4850 /* FruitStructTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitStructTests.swift; sourceTree = "<group>"; };
+		CF3893441F07B80D00DE4850 /* FruitModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitModelTests.swift; sourceTree = "<group>"; };
+		CF3893481F07BA3200DE4850 /* GetFruitNetworkServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFruitNetworkServiceTests.swift; sourceTree = "<group>"; };
+		D2ADC26643FEA772F0549597 /* Pods-bbc-mobile-app-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bbc-mobile-app-challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-bbc-mobile-app-challenge/Pods-bbc-mobile-app-challenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CF3892F61F067F1F00DE4850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FC0FA276F8B2EF7D66B15 /* Pods_bbc_mobile_app_challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3893351F07AA7200DE4850 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,7 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				CF3892FB1F067F1F00DE4850 /* bbc-mobile-app-challenge */,
+				CF3893391F07AA7200DE4850 /* bbc-mobile-app-challengeTests */,
 				CF3892FA1F067F1F00DE4850 /* Products */,
+				F32822AC80FF945247F5D8F8 /* Pods */,
+				F9821FA72A8AFFC7E11C1C3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				CF3892F91F067F1F00DE4850 /* bbc-mobile-app-challenge.app */,
+				CF3893381F07AA7200DE4850 /* bbc-mobile-app-challengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +114,95 @@
 		CF3892FB1F067F1F00DE4850 /* bbc-mobile-app-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				CF3893251F0686CF00DE4850 /* Network Services */,
+				CF38931C1F0683A400DE4850 /* View Models */,
+				CF3893191F06817E00DE4850 /* Models */,
+				CF3893181F06817200DE4850 /* Common */,
+				CF3893101F06803100DE4850 /* View Controllers */,
 				CF3892FC1F067F1F00DE4850 /* AppDelegate.swift */,
-				CF3892FE1F067F1F00DE4850 /* ViewController.swift */,
 				CF3893001F067F1F00DE4850 /* Main.storyboard */,
 				CF3893031F067F1F00DE4850 /* Assets.xcassets */,
 				CF3893051F067F1F00DE4850 /* LaunchScreen.storyboard */,
 				CF3893081F067F1F00DE4850 /* Info.plist */,
+				CF3893151F06812300DE4850 /* model.xcdatamodeld */,
+				CF3893321F07AA0800DE4850 /* README */,
 			);
 			path = "bbc-mobile-app-challenge";
+			sourceTree = "<group>";
+		};
+		CF3893101F06803100DE4850 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF3893111F06804500DE4850 /* MainViewController.swift */,
+				CF3893131F06805200DE4850 /* DetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CF3893181F06817200DE4850 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CF38931A1F0682CF00DE4850 /* CoreDataStack.swift */,
+				CF3893281F06881000DE4850 /* AppConfig.swift */,
+				CF38932A1F06929A00DE4850 /* ViewModelDelegate.swift */,
+				CF38932E1F078FD500DE4850 /* DateFormatterManager.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CF3893191F06817E00DE4850 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF3893211F06846500DE4850 /* FruitExtension.swift */,
+				CF3893231F0684DC00DE4850 /* StructModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF38931C1F0683A400DE4850 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF38931D1F0683B000DE4850 /* MainViewModel.swift */,
+				CF38931F1F0683BA00DE4850 /* DetailViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		CF3893251F0686CF00DE4850 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				CF3893261F0686DD00DE4850 /* GetFruitNetworkService.swift */,
+				CF3893301F07939A00DE4850 /* SendStatsNetworkService.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		CF3893391F07AA7200DE4850 /* bbc-mobile-app-challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF38933C1F07AA7200DE4850 /* Info.plist */,
+				CF3893421F07B6CA00DE4850 /* FruitStructTests.swift */,
+				CF3893441F07B80D00DE4850 /* FruitModelTests.swift */,
+				CF3893481F07BA3200DE4850 /* GetFruitNetworkServiceTests.swift */,
+			);
+			path = "bbc-mobile-app-challengeTests";
+			sourceTree = "<group>";
+		};
+		F32822AC80FF945247F5D8F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3394B9BB8C61577FD543EFF4 /* Pods-bbc-mobile-app-challenge.debug.xcconfig */,
+				D2ADC26643FEA772F0549597 /* Pods-bbc-mobile-app-challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9821FA72A8AFFC7E11C1C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAD30354FBB0E5B9BDD0F7E9 /* Pods_bbc_mobile_app_challenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF38930B1F067F1F00DE4850 /* Build configuration list for PBXNativeTarget "bbc-mobile-app-challenge" */;
 			buildPhases = (
+				1D28201373E9D894CD0A43A0 /* [CP] Check Pods Manifest.lock */,
 				CF3892F51F067F1F00DE4850 /* Sources */,
 				CF3892F61F067F1F00DE4850 /* Frameworks */,
 				CF3892F71F067F1F00DE4850 /* Resources */,
+				DB20D270FD9114D5D1208A6E /* [CP] Embed Pods Frameworks */,
+				6E1863BAEDC05D2CDE4142BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +227,24 @@
 			productName = "bbc-mobile-app-challenge";
 			productReference = CF3892F91F067F1F00DE4850 /* bbc-mobile-app-challenge.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CF3893371F07AA7200DE4850 /* bbc-mobile-app-challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF38933F1F07AA7200DE4850 /* Build configuration list for PBXNativeTarget "bbc-mobile-app-challengeTests" */;
+			buildPhases = (
+				CF3893341F07AA7200DE4850 /* Sources */,
+				CF3893351F07AA7200DE4850 /* Frameworks */,
+				CF3893361F07AA7200DE4850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF38933E1F07AA7200DE4850 /* PBXTargetDependency */,
+			);
+			name = "bbc-mobile-app-challengeTests";
+			productName = "bbc-mobile-app-challengeTests";
+			productReference = CF3893381F07AA7200DE4850 /* bbc-mobile-app-challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +260,12 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = DGZ94FWHH5;
 						ProvisioningStyle = Automatic;
+					};
+					CF3893371F07AA7200DE4850 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DGZ94FWHH5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF3892F81F067F1F00DE4850;
 					};
 				};
 			};
@@ -115,6 +283,7 @@
 			projectRoot = "";
 			targets = (
 				CF3892F81F067F1F00DE4850 /* bbc-mobile-app-challenge */,
+				CF3893371F07AA7200DE4850 /* bbc-mobile-app-challengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,25 +293,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3893331F07AA0800DE4850 /* README in Resources */,
 				CF3893071F067F1F00DE4850 /* LaunchScreen.storyboard in Resources */,
 				CF3893041F067F1F00DE4850 /* Assets.xcassets in Resources */,
 				CF3893021F067F1F00DE4850 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF3893361F07AA7200DE4850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D28201373E9D894CD0A43A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1863BAEDC05D2CDE4142BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bbc-mobile-app-challenge/Pods-bbc-mobile-app-challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB20D270FD9114D5D1208A6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bbc-mobile-app-challenge/Pods-bbc-mobile-app-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF3892F51F067F1F00DE4850 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF3892FF1F067F1F00DE4850 /* ViewController.swift in Sources */,
+				CF3893311F07939A00DE4850 /* SendStatsNetworkService.swift in Sources */,
+				CF38931B1F0682CF00DE4850 /* CoreDataStack.swift in Sources */,
+				CF38932B1F06929A00DE4850 /* ViewModelDelegate.swift in Sources */,
+				CF3893141F06805200DE4850 /* DetailViewController.swift in Sources */,
+				CF3893291F06881000DE4850 /* AppConfig.swift in Sources */,
+				CF38932F1F078FD500DE4850 /* DateFormatterManager.swift in Sources */,
+				CF3893271F0686DD00DE4850 /* GetFruitNetworkService.swift in Sources */,
+				CF3893241F0684DC00DE4850 /* StructModels.swift in Sources */,
+				CF3893201F0683BA00DE4850 /* DetailViewModel.swift in Sources */,
 				CF3892FD1F067F1F00DE4850 /* AppDelegate.swift in Sources */,
+				CF3893121F06804500DE4850 /* MainViewController.swift in Sources */,
+				CF3893171F06812300DE4850 /* model.xcdatamodeld in Sources */,
+				CF3893221F06846500DE4850 /* FruitExtension.swift in Sources */,
+				CF38931E1F0683B000DE4850 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3893341F07AA7200DE4850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3893431F07B6CA00DE4850 /* FruitStructTests.swift in Sources */,
+				CF3893451F07B80D00DE4850 /* FruitModelTests.swift in Sources */,
+				CF3893491F07BA3200DE4850 /* GetFruitNetworkServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF38933E1F07AA7200DE4850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3892F81F067F1F00DE4850 /* bbc-mobile-app-challenge */;
+			targetProxy = CF38933D1F07AA7200DE4850 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CF3893001F067F1F00DE4850 /* Main.storyboard */ = {
@@ -259,6 +514,7 @@
 		};
 		CF38930C1F067F1F00DE4850 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3394B9BB8C61577FD543EFF4 /* Pods-bbc-mobile-app-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DGZ94FWHH5;
@@ -272,6 +528,7 @@
 		};
 		CF38930D1F067F1F00DE4850 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2ADC26643FEA772F0549597 /* Pods-bbc-mobile-app-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DGZ94FWHH5;
@@ -280,6 +537,34 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hashaam.bbc-mobile-app-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF3893401F07AA7200DE4850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DGZ94FWHH5;
+				INFOPLIST_FILE = "bbc-mobile-app-challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hashaam.bbc-mobile-app-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bbc-mobile-app-challenge.app/bbc-mobile-app-challenge";
+			};
+			name = Debug;
+		};
+		CF3893411F07AA7200DE4850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DGZ94FWHH5;
+				INFOPLIST_FILE = "bbc-mobile-app-challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hashaam.bbc-mobile-app-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bbc-mobile-app-challenge.app/bbc-mobile-app-challenge";
 			};
 			name = Release;
 		};
@@ -302,8 +587,30 @@
 				CF38930D1F067F1F00DE4850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF38933F1F07AA7200DE4850 /* Build configuration list for PBXNativeTarget "bbc-mobile-app-challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3893401F07AA7200DE4850 /* Debug */,
+				CF3893411F07AA7200DE4850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF3893151F06812300DE4850 /* model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF3893161F06812300DE4850 /* model.xcdatamodel */,
+			);
+			currentVersion = CF3893161F06812300DE4850 /* model.xcdatamodel */;
+			path = model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CF3892F11F067F1F00DE4850 /* Project object */;
 }

@@ -1,0 +1,37 @@
+BBC Mobile App Challenge
+------------------------
+
+The mobile application was developed to solve BBC Mobile App Challenge. The mobile application is required to fetch list of Fruits, showing fruit type as a list in UITableView in Main View Controller. When selecting table view cell, detail view (Detail View Controller) is shown with more information, such as price in pounds and pence and weight in kgs.
+
+The mobile app uses CoreData for data persistence and local cache. model.xcdatamodelid can be checked out for the following Fruit model:
+
+Fruit Model:
+- fruitType: String value to save fruit type (e.g. apple, kiwi, etc)
+- price: Int16 value to save price in pence
+- weight: Int16 value to save weight of fruit in grams
+
+CoreDataStack is a wrapper class to consolidate Core Data functionality and requirements to setup and initialize core data
+
+The process flow of the app consists:
+AppDelegate - Main View Controller - Detail View Controller
+
+AppDelegate sets up and initializes CoreDataStack and injects it to MainViewController. Upon setting coreDataStack property of MainViewController, ViewModel (MainViewModel) is initialized and loadData is called. Once the data is loaded, viewModel informs its viewModelDelegate that data is ready through dataReady method. This method has success parameter that is used to determine data is successfully loaded and tableView.reloadData should be called or in case of this parameter value being false, error message should be shown.
+
+When selecting table view cell, Detail View Controller is shown with its ViewModel (DetailViewModel) is setup in prepareForSegue that passes selected Fruit along.
+
+The mobile app uses Alamofire Cocoapods for network requests. Network Service classes are following:
+- GetFruitNetworkService: this class fetches list of fruits, parses JSON data, saves them in CoreData and returns success or failure in case of error.
+- SendStatsNetworkService: this class sends stats as required for mobile app
+
+Data can be refreshed by using pull-to-refresh gesture on Main View Controller.
+
+Other Classes / Files:
+AppConfig: has the URLs required to access data
+FruitExtension: Fruit model extension to wrap save, get and delete fruit data from and to NSManagedObjectContext
+StructModels: has Fruit struct model to hold fruit information used for passing a single fruit object when saving Fruit in Core Data
+DateFormatterManager: has singleton DateFormatter to use time in milliseconds which is used to find out difference between start and end dates for requests or data display event, used for sending stats.
+
+Unit Tests:
+- FruitStructTests: provides testing for FruitStruct
+- FruitModelTests: provides testing for Fruit CoreData Model
+- GetFruitNetworkServiceTests: provides testing for getting fruit data from network

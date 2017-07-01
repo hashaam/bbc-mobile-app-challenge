@@ -1,0 +1,6 @@
+framework module Pods_bbc_mobile_app_challenge {
+  umbrella header "Pods-bbc-mobile-app-challenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
